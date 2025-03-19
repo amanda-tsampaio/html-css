@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* para o tamanho ser 100% da tela do monitor */
+        height: 100vh;
+        background-color: black;
+        background-image: url("imagens/wallpaper002.jpg");
+        background-position: center top;
+        /* esse não é necessario pq teremos agr apenas uma img de fundo */
+        background-repeat: no-repeat;
+        /* 100% para as duas direções, mas fica estranho
+        background-size: 100% 100%;*/
+        /* o melhor é a opçao cover que se alinha cortando a img, a opçao contain distorce a img */
+        background-size: cover;
+        /* para fixar a img de fundo durante a rolagem do conteudo */
+        background-attachment: fixed;
+        /* Short hand background */
+        /* color > image > position > repeat > [size] attachmente */
+        /* exemplo */
+        /* background: black url("imagens/wallpaper002.jpg") center center
+          no-repeat fixed;
+        background-size: cover; */
+        /* o size tem q ser separado */
+      }
+
+      main {
+        background-color: white;
+        /* para ir diminuindo quando diminui a tela e em tela cheia ficar com 600px */
+        max-width: 600px;
+        padding: 10px;
+        margin: auto;
+        border: 1px solid blue;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Teste de Imagem de Fundo</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et
+        earum explicabo. Nisi a expedita, veritatis natus mollitia tempora
+        numquam impedit consequatur reprehenderit accusamus qui debitis,
+        incidunt aperiam, assumenda quo. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Sequi harum dolorum et laudantium nam consequatur,
+        velit nemo corrupti maxime error. Laborum repudiandae impedit doloremque
+        vitae eaque ducimus cupiditate ipsam fugiat! Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Odit dolorum mollitia magnam vel
+        laboriosam quia architecto recusandae nulla hic vero minus ab, molestiae
+        consectetur sint eos aut culpa perferendis quos. Lorem ipsum dolor, sit
+        amet consectetur adipisicing elit. At, iste veritatis? Deserunt, quidem
+        autem? Sapiente veniam cum accusamus, necessitatibus aspernatur earum
+        aperiam optio molestias, quas perferendis aliquam eligendi! Recusandae,
+        voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Debitis odit adipisci quis cupiditate, enim excepturi ipsa accusantium
+        qui aliquam deleniti atque fugiat porro voluptate veritatis repellat
+        voluptatibus quasi nam id. Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Reprehenderit at sunt itaque amet velit earum beatae
+        perferendis, reiciendis modi unde est odio, soluta molestiae? Accusamus
+        distinctio illum cupiditate quasi minus! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Accusamus et earum explicabo. Nisi a
+        expedita, veritatis natus mollitia tempora numquam impedit consequatur
+        reprehenderit accusamus qui debitis, incidunt aperiam, assumenda quo.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum
+        dolorum et laudantium nam consequatur, velit nemo corrupti maxime error.
+        Laborum repudiandae impedit doloremque vitae eaque ducimus cupiditate
+        ipsam fugiat! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Odit dolorum mollitia magnam vel laboriosam quia architecto recusandae
+        nulla hic vero minus ab, molestiae consectetur sint eos aut culpa
+        perferendis quos. Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. At, iste veritatis? Deserunt, quidem autem? Sapiente veniam cum
+        accusamus, necessitatibus aspernatur earum aperiam optio molestias, quas
+        perferendis aliquam eligendi! Recusandae, voluptatibus. Lorem ipsum
+        dolor, sit amet consectetur adipisicing elit. Debitis odit adipisci quis
+        cupiditate, enim excepturi ipsa accusantium qui aliquam deleniti atque
+        fugiat porro voluptate veritatis repellat voluptatibus quasi nam id.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
+        at sunt itaque amet velit earum beatae perferendis, reiciendis modi unde
+        est odio, soluta molestiae? Accusamus distinctio illum cupiditate quasi
+        minus!
+      </p>
+    </main>
+  </body>
+</html>
