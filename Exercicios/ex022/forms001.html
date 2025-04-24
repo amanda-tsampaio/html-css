@@ -12,7 +12,10 @@
   </head>
   <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <!-- usa esse método (post) para os dados não aparecerem na URL
+     HTTPS para proteger dados
+     o GET é o metodo para formularios simples -->
+    <form action="cadastro.php" method="POST" autocomplete="off">
       <!-- sempre usar label -->
       <p>
         <label for="inome">Nome:</label>
